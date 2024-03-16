@@ -1,0 +1,20 @@
+
+s
+java:S1450"VRemove the "javaVer" field and declare it as a local variable in the relevant methods.(¡´‰Ö8çÄä1
+G	java:S106"+Replace this use of System.out by a logger.(ÉâÆ8éÄä1
+L	java:S106"+Replace this use of System.out by a logger.(îËæùÿÿÿÿ8êÄä1
+L	java:S106 "+Replace this use of System.out by a logger.(ÖÌ¡–ÿÿÿÿÿ8êÄä1
+G	java:S106%"+Replace this use of System.out by a logger.(²®ÿ‘8êÄä1
+G	java:S106*"+Replace this use of System.out by a logger.(Æè°8ëÄä1
+G	java:S106/"+Replace this use of System.out by a logger.(¯Ä“8ëÄä1
+L	java:S1064"+Replace this use of System.out by a logger.(¶µ€âşÿÿÿÿ8ëÄä1
+L	java:S1069"+Replace this use of System.out by a logger.(“äçıÿÿÿÿ8ìÄä1
+G	java:S106>"+Replace this use of System.out by a logger.(ÁÆ†ã8ìÄä1
+G	java:S106C"+Replace this use of System.out by a logger.(Æûÿ‘8íÄä1
+o
+java:S6201E"RReplace this instanceof check and cast with 'instanceof MyController myController'(“¶Š8Œ Ää1
+F	java:S106G"+Replace this use of System.out by a logger.(–Æ’]8îÄä1
+L	java:S106P"+Replace this use of System.out by a logger.(ã¬»ûÿÿÿÿ8ïÄä1
+o
+java:S6201R"RReplace this instanceof check and cast with 'instanceof MyController myController'(“¶Š8 Ää1
+L	java:S106T"+Replace this use of System.out by a logger.(‚–Š÷şÿÿÿÿ8ïÄä1
