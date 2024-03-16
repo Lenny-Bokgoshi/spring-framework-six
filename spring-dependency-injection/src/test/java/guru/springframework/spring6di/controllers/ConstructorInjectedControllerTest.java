@@ -14,7 +14,7 @@ class ConstructorInjectedControllerTest {
     @Autowired
     ConstructorInjectedController controller;
 
-    @BeforeEach
+//    @BeforeEach
 //    void setUp() {
 //        controller = new ConstructorInjectedController(new GreetingServiceImpl());
 //    }
