@@ -6,21 +6,20 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class PropertyInjectedControllerTest {
+class SetterInjectedControllerTest {
 
     // Not optimal to inject this way
-    PropertyInjectedController propertyInjectedController;
+    SetterInjectedController setterInjectedController;
 
     @BeforeEach
     void setUp() {
+        setterInjectedController = new SetterInjectedController();
+        setterInjectedController.setGreetingService(new GreetingServiceImpl());
 
-        propertyInjectedController = new PropertyInjectedController();
-        propertyInjectedController.greetingService = new GreetingServiceImpl(); // NullPointer if forgotten
     }
 
     @Test
     void sayHello() {
-        System.out.println(propertyInjectedController.sayHello());
-
+        System.out.println(setterInjectedController.sayHello());
     }
 }
