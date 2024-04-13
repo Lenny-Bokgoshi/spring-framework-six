@@ -15,18 +15,21 @@ public class CustomerServiceImpl implements CustomerService {
 
     public CustomerServiceImpl() {
         Customer customer1 = Customer.builder()
+               .id(UUID.randomUUID())
                 .name("Customer 1")
                 .version(1)
                 .updateDate(LocalDateTime.now())
                 .createdDate(LocalDateTime.now())
                 .build();
         Customer customer2 = Customer.builder()
+                .id(UUID.randomUUID())
                 .name("Customer 2")
                 .version(1)
                 .updateDate(LocalDateTime.now())
                 .createdDate(LocalDateTime.now())
                 .build();
         Customer customer3 = Customer.builder()
+                .id(UUID.randomUUID())
                 .name("Customer 3")
                 .version(1)
                 .updateDate(LocalDateTime.now())
